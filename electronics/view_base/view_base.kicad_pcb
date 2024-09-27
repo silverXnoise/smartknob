@@ -115,7 +115,7 @@
 	)
 	(property "COMMIT_DATE_LONG" "YYYY-MM-DD HH:MM:SS TZ")
 	(property "COMMIT_DATE_SHORT" "YYYY-MM-DD ")
-	(property "COMMIT_HASH" "deadbeef")
+	(property "COMMIT_HASH" "")
 	(property "RELEASE_VERSION" "v#.#")
 	(net 0 "")
 	(net 1 "GND")
@@ -8267,7 +8267,7 @@
 		)
 		(fp_arc
 			(start 3.878788 -15.522725)
-			(mid 6.302306 -14.706493)
+			(mid 6.302306 -14.706494)
 			(end 8.564827 -13.514574)
 			(stroke
 				(width 0.2)
@@ -8344,7 +8344,7 @@
 		)
 		(fp_arc
 			(start 15.522725 3.878788)
-			(mid 14.706493 6.302306)
+			(mid 14.706494 6.302306)
 			(end 13.514574 8.564827)
 			(stroke
 				(width 0.2)
@@ -21380,6 +21380,86 @@
 				(xyz 0 0 0)
 			)
 		)
+	)
+	(footprint "BOM_Only:bom_only_no_pin"
+		(layer "F.Cu")
+		(uuid "d5aeb8e5-8591-43fd-8032-70a56eb42f23")
+		(at 9.101192 1.34825)
+		(property "Reference" "Z8"
+			(at 0 0.5 0)
+			(layer "F.Fab")
+			(uuid "b14041cb-58df-4773-97d0-71e49feb23b2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "RotorScrew (BOM-only)"
+			(at 0 -0.5 0)
+			(layer "F.Fab")
+			(uuid "8d670944-42cb-49e3-a6a4-4466d6cd5e7e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "BOM_Only:bom_only_no_pin"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "98250a05-9313-46b8-8faf-1d84ce1fb03b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "37491b65-8c32-4a8c-8fff-538e8dd421c2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f5961c6f-b792-45c7-9300-4064166924bb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Note" "Screw: M1.6x3 (countersunk). LCSC C2931384 could work, but tall hex socket head leaves very little clearance for soldered screen PCB wires. Beware: long screws may scrape internal motor stator windings!"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "08a6feeb-d8fd-419b-8422-2d3e6c07ddad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/00000000-0000-0000-0000-00006233c06f")
+		(sheetname "Root")
+		(sheetfile "view_base.kicad_sch")
+		(attr smd)
 	)
 	(footprint "sk6812:SK6812-SIDE-A"
 		(layer "F.Cu")
