@@ -1,0 +1,10 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+C1,0805,1,22uF,C98190
+C2,0603,1,0.1uF,C1591
+H1,AlignmentHole_1.6,1,AlignmentHole,
+"J1, J3, J4, J5",SolderPads_2mm_4,4,Conn_01x04,
+J2,GC9A01Round1.28,1,GC9A01,N/A
+Q1,SOT-23,1,2N7002,2N7002
+R1,0603,1,10k,C98220
+R2,0603,1,22R,
+R3,0603,1,1M,

@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "BM28B0.6-24DSBreakout-rescue")(type "KiCad")(uri "${KIPRJMOD}/BM28B0.6-24DSBreakout-rescue.kicad_sym")(options "")(descr ""))
+)

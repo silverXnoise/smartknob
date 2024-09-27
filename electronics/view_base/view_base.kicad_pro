@@ -59,7 +59,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "silk_over_copper|105303300|105303300|00000000-0000-0000-0000-0000622ff9d4|a8470270-920a-4fed-9691-22526135f92c",
+        "silk_over_copper|93752779|95002779|00000000-0000-0000-0000-0000622ffa0d|34d3baf1-c1a6-463d-a7da-03fde565ea93",
+        "silk_over_copper|94343146|105656854|00000000-0000-0000-0000-0000622ff9e6|e26f0b22-8514-418f-977b-cb0a9761b0f5",
+        "silk_over_copper|95002779|93752779|00000000-0000-0000-0000-0000622ffa0d|00000000-0000-0000-0000-0000620a3355"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -138,7 +143,7 @@
         "min_track_width": 0.127,
         "min_via_annular_width": 0.05,
         "min_via_diameter": 0.4,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -618,7 +623,7 @@
   "text_variables": {
     "COMMIT_DATE_LONG": "YYYY-MM-DD HH:MM:SS TZ",
     "COMMIT_DATE_SHORT": "2024-09-30",
-    "COMMIT_HASH": "#3DB8DE",
+    "COMMIT_HASH": "#543956E",
     "GIT_BRANCH": "sxn-proto",
     "RELEASE_VERSION": "v0.1.1"
   }
