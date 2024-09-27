@@ -617,8 +617,8 @@
   ],
   "text_variables": {
     "COMMIT_DATE_LONG": "YYYY-MM-DD HH:MM:SS TZ",
-    "COMMIT_DATE_SHORT": "YYYY-MM-DD ",
-    "COMMIT_HASH": "",
-    "RELEASE_VERSION": "v#.#"
+    "COMMIT_DATE_SHORT": "2024-09-30",
+    "COMMIT_HASH": "44925b8",
+    "RELEASE_VERSION": "v0.1.1"
   }
 }
